@@ -17,8 +17,8 @@ Built for use on Linux machines
 - `./dfc <command> [parameter]
 - Must have a config file (`dfc.conf`) in the user's `$HOME` directory. Each line of the file defines another server the client can use, following the format of `server <server name> <ip:port>`. Server names are arbitrary
 - List reconstructable files on servers: `./dfc list`
-- Put file: `./dfc put <filepath>`
-- Get file: `/dfc get <filename>`
+- Put file: `./dfc put <filepaths>`
+- Get file: `/dfc get <filenames>`
 
 ---
 
